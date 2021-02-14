@@ -1,0 +1,15 @@
+AEDR 8300 components
+
+LED Current Limiting Resistor
+
+    - recommended value is 220ohms (+- 10%)
+    - placed in series between 5V supply and pin 3 (Vled)
+    - results in LED current of ~15ma
+
+
+Power Supply Bypass Caps (generic)
+
+    
+    - 10 uF tantalum/ceramic/electrolytic cap within inch or two of IC ("per board or board section", "for all power inputs to board")
+    - 0.1uF ceramic cap as close to power pin as possible
+    - in parallel from V+ to GND
